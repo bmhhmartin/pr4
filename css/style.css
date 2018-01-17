@@ -1,0 +1,591 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    border: 0px;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+.float{
+    float: left;
+}
+.clr{
+    clear: both;
+}
+.full_wrapper{
+    width: 100%;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1170px;
+}
+/*--------------------------------------Defult_css_ends--------------------------------------*/
+.banner{
+    height: 822px;
+    background: url(../images/slider2.jpg);
+    background-size: cover;
+}
+.logo{
+    width: 200px;
+}
+.logo img{
+    padding-top: 42px;
+}
+.menu{
+    width: 970px;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    padding-top: 58px;
+}
+.menu ul li a{
+    color: #ffffff;
+    font-size: 17px;
+    padding: 10px;
+    font-family: Exo;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-top: 1px solid rgba(2, 135, 148,0);
+    border-bottom: 1px solid rgba(2, 135, 148,0);
+    border-left: 3px solid rgba(2, 135, 148,0);
+    border-right: 3px solid rgba(2, 135, 148,0);
+}
+.menu ul li a:hover{
+    border-top: 1px solid rgba(2, 135, 148,1);
+    border-bottom: 1px solid rgba(2, 135, 148,1);
+    border-left: 3px solid rgba(2, 135, 148,1);
+    border-right: 3px solid rgba(2, 135, 148,1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 11px;
+    padding-left: 11px;
+}
+.menu ul li .active_home{
+    border-top: 1px solid rgba(2, 135, 148,1);
+    border-bottom: 1px solid rgba(2, 135, 148,1);
+    border-left: 3px solid rgba(2, 135, 148,1);
+    border-right: 3px solid rgba(2, 135, 148,1);
+}
+.banner_text{
+    float: right;
+    height: 400px;
+}
+.banner_text h2{
+    padding-top: 485px;
+    text-align: right;
+    color: #fff;
+    font-size: 40px;
+    font-family: Myriad Pro;
+    font-weight: 400;
+    padding-bottom: 130px;
+}
+/*--------------------------------------header_part_ends--------------------------------------*/
+.about{
+    width: 703px;
+    height: 500px;
+}
+.about h3{
+    font-size: 26px;
+    color: #028794;
+    font-family: Myriad Pro;
+    font-weight: 700;
+    padding-top: 130px;
+    padding-bottom: 25px;
+}
+.about p{
+    font-size: 15px;
+    font-family: Myriad Pro;
+    text-align: justify;
+    padding-right: 135px;
+    color: #222222;
+}
+.graphics{
+    height: 500px;
+    width: 466px;
+}
+.graphics img{
+    width: 470px;
+    padding: 56px 0px 52px 0px;
+}
+/*--------------------------------------about_part_ends--------------------------------------*/
+.service{
+    height: 427px;
+    background: url(../images/service.jpg);
+    background-size: cover;
+}
+.service_div h2{
+    padding: 45px 0px 22px 0px;
+    text-align: center;
+    font-family: Myriad Pro;
+    font-size: 25px;
+    color: #018693;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.service_div h3{
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: Myriad Pro;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.service_div .works_first{
+    width: 390px;
+    height: 280px;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 32px;
+}
+.service_div .works_second{
+    width: 390px;
+    height: 280px;
+    padding: 0px 16px;
+    float: left;
+    box-sizing: border-box;
+}
+.service_div .works_third{
+    width: 390px;
+    height: 280px;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 32px;
+}
+.service_div .works_third .fa-mobile{
+    font-size: 30px;
+}
+.service_div ul li{
+    padding: 10px 5px;
+    color: #fff; 
+    position: relative;
+}
+.service_div ul li i{
+    color: #fff;
+    background: #007582;
+    width: 53px;
+    height: 53px;
+    line-height: 53px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 75px;
+    text-align: center;
+    font-size: 20px;
+}
+.service_div ul li i:hover{
+    background: #fff;
+    color: #007582;
+    transition: all linear .4s;
+}
+.service_div ul li h4{
+    text-align: center;
+    margin-left: 105px;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-family: Myriad Pro;
+    font-weight: 400;
+}
+.service_div p{
+    text-align: justify;
+    color: #fff;
+    padding-top: 24px;
+    font-family: Myriad Pro;
+    font-weight: 400;
+    margin-bottom: 63px;
+    font-size: 15px;
+}
+
+/*--------------------------------------service_part_ends--------------------------------------*/
+.latest{
+    text-align: center;
+    font-family: Myriad Pro;
+    
+}
+.latest h2{
+    padding-top: 56px;
+    padding-bottom: 27px;
+    font-weight: 400;
+    color: #028794;
+    font-size: 25px;
+}
+.latest p{
+    padding-bottom: 37px;
+    font-weight: 400;
+    color: #303132;
+    font-size: 15px;
+}
+.latest_menu{
+    margin-left: 360px;
+}
+.latest_menu ul{
+    left: 500px;
+}
+.latest_menu ul li{
+    float: left;
+    padding-bottom: 62px;
+    padding-left: 29px;
+}
+.latest_menu ul li a{
+    text-transform: uppercase;
+    font-family: Myriad Pro;
+    color: #0b0b0b;
+    font-size: 12px;
+    border-radius: 5px;
+    padding-right: 14px;
+}
+.latest_menu ul li a:hover{
+    color: #028794;
+    transition: all linear .4s;
+}
+.latest_menu ul li .active{
+    background: #028794;
+    color: #fff;
+    padding: 14px 43px 14px 39px;
+}
+.latest_menu ul li .active:hover{
+    background: #028794;
+    color: #fff;
+}
+/*--------------------------------------latest_part_ends--------------------------------------*/
+.picture{
+    padding-bottom: 40px;
+}
+.picture .pic{
+    line-height: 0px;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+.picture .pic .pic_hover{
+    background: #137d84;
+    opacity: 0.9;
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: all linear 0.4s;
+}
+.picture .pic .pic_hover h4{
+    padding-top: 96px;
+    font-family: Myriad Pro;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+    font-size: 12px;
+}
+.picture .pic .pic_hover i{
+    color: #fff;
+    margin-top: 13px;
+    padding-left: 8px;
+    padding-right: 3px;
+    font-size: 15px;
+}
+.picture .pic .pic_hover span{
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: Myriad Pro;
+}
+.picture .pic .pic_hover a{
+    text-decoration: none;
+}
+.picture .pic:hover .pic_hover{
+    bottom: 0px;
+}
+.view{
+    padding-top: 60px;
+} 
+.view a{
+    padding: 18px 26px 1px 26px;
+    background: #028794;
+    text-align: center;
+    color:#fff;
+    margin-left: 530px;
+    font-family: Myriad Pro;
+    font-weight: 400;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.view a:hover{
+    padding: 18px 26px 1px 26px;
+    background: #fff;
+    text-align: center;
+    color:#028794;
+    border: 2px solid #028794;
+    transition: all linear .4s;  
+}
+/*--------------------------------------picture_and_view_part_ends--------------------------------------*/
+.news{
+    text-align: center;
+    font-family: Myriad Pro;
+}
+.news h3{
+    font-size: 23px;
+    color: #028794;
+    font-weight: 400;
+    padding-top: 47px;
+    padding-bottom: 17px;
+}
+.news p{
+    color: #303132;
+    font-size: 15px;
+    padding-bottom: 55px;
+}
+.news_works .first{
+    width: 367px;
+    float: left;
+    padding-right: 32px;
+    padding-bottom: 76px;
+}
+.news_works .first a{
+    float: right;
+    padding: 14px 20px;
+    background: #028794;
+    font-family: Myriad Pro;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.news_works .first a:hover{
+    background: #fff;
+    color: #028794;
+    transition: all linear .4s;
+}
+.news_works .first h3{
+    font-size: 13px;
+    color: #2a2b2c;
+    padding-top: 20px;
+    font-family: exo;
+    font-weight: 400;
+}
+.news_works .first h6{
+    font-size: 11px;
+    color: #028794;
+    padding-top: 8px;
+    font-family: exo;
+    font-weight:lighter;
+    font-style: italic;
+}
+.news_works .first p{
+    font-size: 15px;
+    color: #2a2b2c;
+    text-align: justify;
+    padding-top: 14px;
+    font-family: Myriad Pro;
+}
+.news_works .second{
+    width: 367px;
+    float: left;
+    padding-left: 0px;
+    padding-bottom: 76px;
+}
+.news_works .second a{
+    float: right;
+    padding: 14px 20px;
+    background: #028794;
+    font-family: Myriad Pro;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.news_works .second a:hover{
+    background: #fff;
+    color: #028794;
+    transition: all linear .4s;
+}
+.news_works .second h3{
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #2a2b2c;
+    padding-top: 20px;
+    font-family: exo;
+    font-weight: 400;
+}
+.news_works .second h6{
+    font-size: 11px;
+    color: #028794;
+    padding-top: 8px;
+    font-family: exo;
+    font-weight:lighter;
+    font-style: italic;
+}
+.news_works .second p{
+    font-size: 15px;
+    color: #2a2b2c;
+    text-align: justify;
+    padding-top: 14px;
+    font-family: Myriad Pro;
+}
+.news_works .third{
+    width: 367px;
+    float: left;
+    padding-left: 32px;
+    padding-bottom: 76px;
+}
+.news_works .third a{
+    float: right;
+    padding: 14px 20px;
+    background: #028794;
+    font-family: Myriad Pro;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.news_works .third a:hover{
+    background: #fff;
+    color: #028794;
+    transition: all linear .4s;
+}
+.news_works .third h3{
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #2a2b2c;
+    padding-top: 20px;
+    font-family: exo;
+    font-weight: 400;
+}
+.news_works .third h6{
+    font-size: 11px;
+    color: #028794;
+    padding-top: 8px;
+    font-family: exo;
+    font-weight:lighter;
+    font-style: italic;
+}
+.news_works .third p{
+    font-size: 15px;
+    color: #2a2b2c;
+    text-align: justify;
+    padding-top: 14px;
+    font-family: Myriad Pro;
+}
+/*--------------------------------------news_part_ends--------------------------------------*/
+.footer_last{
+    width: 292.5px;
+    background: #070707;
+    float: left;
+    height: 250px;
+}
+.footer_last h3{
+    color: #028794;
+    font-family: Myriad Pro;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 400;
+    padding-top: 37px;
+    padding-bottom: 33px;
+}
+.footer_last ul li i{
+    color: #028794;
+    padding-right: 13px;
+}
+.footer_last ul li a span{
+    color: #fff;
+    font-family: Myriad Pro;
+    font-size: 13px;
+    font-weight: 400;
+}
+.footer_last ul li a span p{
+    margin-left: 23px;
+}
+.footer_last ul li p{
+    margin-bottom: 17px;
+}
+.footer_last ul li .fa-mobile{
+    font-size: 20px;
+    margin-left: 1px;
+}
+.footer_last ul li a span h6{
+    margin-left: 20px;
+    font-size: 12.5px;
+    font-family: Myriad Pro;
+    font-weight: 400;
+}
+.footer_last ul li a span:hover{
+    color: #028794;
+    transition: all linear .4s;
+}
+.fa-mobile{
+    margin-left: 7px;
+}
+.fa-envelope{
+    font-size: 15px;
+}
+/*--------------------------------------footer_part_ends--------------------------------------*/
+.bg{
+   background: #070707; 
+}
+.footer_color{
+    background: #070707;
+}
+.fan_page{
+    width: 1170px;
+    height: 83px;
+    background: #070707;
+}
+.fan_page span{
+    color: #fff;
+    padding-top: 30px;
+}
+.fan_page .social{
+    width: 970px;
+    float: right;
+}
+.copyright span{
+    padding-top: 30px;
+    width: 200px;
+    float: left;
+    padding-bottom: 32px;
+    font-family: Myriad Pro;
+    font-size: 12px;
+    font-weight: 400;
+}
+.fan_page .social ul{
+    float: right;
+}
+.fan_page .social ul li{
+    float: left;
+}
+.fan_page .social ul li a i{
+    color: #fff;
+    height: 23px;
+    width: 23px;
+    line-height: 23px;
+    text-align: center;
+    margin-left: 8px;
+    margin-bottom: 35px;
+}
+.fan_page .social ul li a i:hover{
+    background: #028794;
+    transition: all linear .4s;
+}
+.fa-facebook{
+    background: #0073bf;
+}
+.fa-twitter{
+    background: #00c9df;
+}
+.fa-flickr{
+    background: #2e9bd6;
+}
+.fa-google-plus{
+    background: #ed0202;
+}
+.fa-youtube{
+    background: #fe5e5e;
+}
+/*--------------------------------------copyright_part_ends--------------------------------------*/
